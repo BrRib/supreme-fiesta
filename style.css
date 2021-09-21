@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #fff;/*cor de fundo da página*/
+	margin-top: 30px; /*margem da página*/
+	margin-left: 30px; /*margem da página*/
+}
+
+
+#leftcolumn {
+	width: 200px; /*largura da coluna da esquerda*/
+	float: left;
+}
+
+#content {
+	float: left;
+	padding-top: 40px; /*margem superior na coluna da direita*/
+}
+
+
+a{
+	text-decoration: none;
+	color: #000; /*cor da fonte do menu*/
+}
+
+a:hover{
+	color: #f00; /*cor do mouseover do menu*/
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif; /*fonte do título*/
+	font-size: 16px; /*fonte do título*/
+}
+
+h1 a {
+	color: #000; /*fonte do título*/
+}
+
+h1 a:hover { 
+	color: #F00; /*cor do mouseover do título*/
+}
+
+
+p{ /*descrição dos trabalhos*/
+	font-family: Helvetica, Arial, sans-serif; 
+	width: 400px; /*largura do parágrafo*/
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+
+ul{ /*menu*/
+	font-family: Helvetica, Arial, sans-serif;
+	list-style-type: none;
+	font-size: 12px;
+	padding: 0;
+}
+
+ul li {
+	margin-bottom: 5px; /*distância de um item do menu pro outro*/
+}
+
